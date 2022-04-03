@@ -1,0 +1,18 @@
+{
+  "name": "reactive-programming",
+  "version": "1.0.0",
+  "description": "Reactive Programming Exercises",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+  },
+  "author": "Fabio G. Strozzi <fabio.strozzi@mapsgroup.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
+}

@@ -89,7 +89,7 @@ export class PlayerEvent {
 
     /**
      * Returns the changes occurred during this event.
-     * @return {{property:'firstName'|'lastName'|'age'|'favouriteGames',oldValue:any,newValue:any}[]} A series of changes
+     * @return {{property:'id'|'firstName'|'lastName'|'age'|'favouriteGames',oldValue:any,newValue:any}[]} A series of changes
      */
     get changes() {
         return this.#changes;

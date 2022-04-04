@@ -1,6 +1,6 @@
 import {expect} from 'chai';
-import {emitPlayerEvents} from '../src/01_exercise.js';
 import {describe, it} from "mocha";
+import {emitPlayerEvents} from '../src/01_exercise.js';
 import {mkDummies, mkPlayerEvents} from "./mocks.js";
 import {consume} from "./utils.js";
 

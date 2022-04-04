@@ -7,5 +7,8 @@ import {interval, map, Observable, take} from "rxjs";
  * @return {Observable<PlayerEvent>} An observable series of events.
  */
 export function emitPlayerEvents(period, events) {
-    // TODO
+    return interval(period).pipe(
+        take(events.length),
+        map(i => events[i])
+    );
 }
